@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background-image: url(1613714175_19-p-myagkii-fon-dlya-prezentatsii-20.jpg);
+  }
+.header {
+  text-align: center;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.items {
+    display: flex;
+    justify-content: center;
+    
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+ul{
+    width: 400px;
+   
+}
+.preloader{
+    text-align: center;
+    margin-top: 50px;
+}
+.header h1{
+    color: rgba(240, 240, 5, 0.714);
+}
+.input-empty{
+    box-shadow: 1px 5px 5px red;
+}
+.inpute{
+    width: 300px;
+    height: 25px;
+    border-radius: 3px;
+    border: none;
+    margin-right: 10px;
+}
+.header-button{
+    height: 25px;
+    border-radius: 3px;
+    border: none;
+    color: black;
+}
+.button-disabled{
+    color:red
+}
+.delBtn{
+    height: 25px;
+    border-radius: 3px;
+    border: none;
+    color: black;
+}
+.itemText{
+    color: rgb(140, 247, 247);
 }
